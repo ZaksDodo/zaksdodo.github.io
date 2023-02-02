@@ -5,17 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZaksDodo Portfolio</title>
+
+    <style>
+        #notice{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            background-color: rgb(236, 233, 233);
+        }
+        .top{
+            border: 3px solid black;
+        }
+        .top #topleft{
+            border: 3px solid black;
+            float: left;
+        }
+        .top #topright h4{
+            border: 3px solid black;
+            float: right;
+            display: flex;
+            
+        }
+/*        .top p, a{
+            text-decoration: none;
+        }*/
+        .career{
+            border: 2px solid black;
+        }
+        nav{
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a0233;
+            height: 80px;
+            width: 100%;
+        }
+        nav ul, a{          
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            color: #ffffff;
+        }
+        nav ul li a:hover{
+            color: #808088;
+        }
+        nav ul{
+            float: right;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 80px;
+        }
+        label.logo{
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 80px;
+            font-weight: bolder;
+        }
+    </style>
 </head>
-<body style="background-color: rgb(236, 233, 233);">
-    <h6>29th Jan</h6>
-    <div class="top" style="text-align:center">
-        <h3>ZaksDodo</h3> 
-        <h5><b>NOTE:</b> This is a portfolio website, the work is in gradual progress. </h5>
-            <p>Contact Address: No. 24, Makeran Gabas, Hadejia</p>
-            <p><a style="text-decoration:none" href="mailto:zakarmgm17@gmail.com">zakarmgm17@gmail.com</a></p>
-            <p><a style="text-decoration:none" href="tel:+2348060659208">+234 806 065 9208</a></p>
+<body>
+    <h6 id="notice">29th Jan ... NOTE: This is a portfolio website, the work is in gradual progress <hr></h5>
+    <nav>
+        <label class="logo">ZaksDodo</label>
+        <ul>
+            <li><a href="#">Interests</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">CV</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </nav>
+    
+    <!--<div class="top">
+        <h4 id="topleft">ZaksDodo</h4>
+        <div id="topright">
+            <h4>Interests</h4>
+            <h4>Resume/CV</h4>
+            <h4>FAQs/Help</h4>
+        </div>
+        <p>Contact Address: No. 24, Makeran Gabas, Hadejia <br>
+            <a href="mailto:zakarmgm17@gmail.com">zakarmgm17@gmail.com</a><br>
+            <a href="tel:+2348060659208">+234 806 065 9208</a></p>-->
     </div>
     <hr>
+
+
+
     <div class="career" style="text-align: justify">
         <p><b>Career Objective</b><br> To work with co-workers and employers in a purely responsible way and promote good image of an industry. And, establish a prosperous community by making donations and taking lead where possible.</p>
     </div>
