@@ -5,7 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZaksDodo Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #notice{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            background-color: rgb(236, 233, 233);
+        }
+        .top{
+            border: 3px solid black;
+        }
+        .top #topleft{
+            border: 3px solid black;
+            float: left;
+        }
+        .top #topright h4{
+            border: 3px solid black;
+            float: right;
+            display: flex;
+            
+        }
+/*        .top p, a{
+            text-decoration: none;
+        }*/
+        .career{
+            border: 2px solid black;
+        }
+        nav{
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a0233;
+            height: 80px;
+            width: 100%;
+        }
+        nav ul, a{          
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            color: #ffffff;
+        }
+        nav ul li a:hover{
+            color: #808088;
+        }
+        nav ul{
+            float: right;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 80px;
+        }
+        label.logo{
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 80px;
+            font-weight: bolder;
+
+            @media screen and (max-width: 500px){
+                body{
+                    background-color: rgb(236, 233, 233);
+                }                
+            }
+        }
+    </style>
 </head>
 <body>
     <h6 id="notice">29th Jan ... NOTE: This is a portfolio website, the work is in gradual progress. Only viewed with css on phones</h5>
@@ -17,6 +80,87 @@
             <li><a href="#">CV</a></li>
             <li><a href="#">FAQs</a></li>
         </ul>
-    </nav>        
+    </nav>
+
+    <!--<div class="top">
+        <h4 id="topleft">ZaksDodo</h4>
+        <div id="topright">
+            <h4>Interests</h4>
+            <h4>Resume/CV</h4>
+            <h4>FAQs/Help</h4>
+        </div>
+        <p>Contact Address: No. 24, Makeran Gabas, Hadejia <br>
+            <a href="mailto:zakarmgm17@gmail.com">zakarmgm17@gmail.com</a><br>
+            <a href="tel:+2348060659208">+234 806 065 9208</a></p>-->
+    </div>
+    <hr>
+
+
+
+    <div class="career" style="text-align: justify">
+        <p><b>Career Objective</b><br> To work with co-workers and employers in a purely responsible way and promote good image of an industry. And, establish a prosperous community by making donations and taking lead where possible.</p>
+    </div>
+    <div class="details"><hr>
+        <dt id="hobbies">
+            <dt><b>Hobbies</b></dt> 
+            <dt>Films</dt>
+            <dt>Travel</dt>
+            <dt>Reading</dt>
+            <dt>Playing Games</dt>
+            <dt>Leisure Time Reels</dt>
+            <dt>Love documentaries</dt>
+        </dt> 
+        <hr>
+        <dt id="data">
+            <dt><b>Personal Data</b></dt>
+            <dt>Date of Birth</dt>
+            <dt>Marital Status</dt>
+            <dt>First Language</dt>
+            <dt>Mother Tongue</dt>
+            <dt>Religion</dt>
+            <dt>Sex</dt>
+        </dt>
+        <hr>
+            <dt><b>Academic Qualifications</b>
+                <dt><a style="text-decoration:none" href="https://www.buk.edu.ng">Bayero University, Kano</a></dt>
+                <dd>B.Sc Cyber Security</dd>
+                <dd>2017 - 2021</dd>
+                <dt>May-Excellence Int'l College, Hadejia</dt>
+                <dd>Secondary School Cerficate  Examination</dd>
+                <dd>2011 - 2017</dd>
+                <dt>Kofar Arewa Primary, Hadejia</dt>
+                <dd>Primary School Leaving Certificate</dd>
+                <dd>2005 - 2011</dd>
+            </dt>
+        <hr>
+        <dt><b>Certifications</b>
+                <dt>Cyber Security and Networking Fundametals</dt>
+                <dd>Aisha Kwaku and Associates 2019</dd>
+                <dt>Information Technology Practioner</dt>
+                <dd>HICT Centre 2020</dd>
+                <dt>Certified Secure Computer User V2</dt>
+                <dd>EC-Council 2021</dd>
+        </dt>
+        <hr>
+        <dt><b>Personal Skills</b>
+            <dt>Good Communication Skill</dt>
+            <dt>Project and Change Management</dt>
+            <dt>Sound Mental and Physical Health</dt>
+            <dt>Computer Professional</dt>
+            <dt>IT Security Solutions</dt>
+            <dt>Kali Linux Essentials</dt>
+            <dt>Fast learning</dt>
+        </dt>
+        <hr>
+    </div>
+    
+    <div class="con" style="display: flex; text-decoration:none;">
+        <li><a href="https://www.facebook.com/zaksdodo1?mibextid=ZbWKwL" >Facebook</a></li>
+        <li><a href="https://twitter.com/ZaksDodo?t=4KZrm38V10qKwmMUwXZKLQ&s=08">Twitter</a></li>
+        <li><a  href="https://www.linkedin.com/in/zakar-ibrahim-dodo-6b6161172">LinkedIn</a>
+        <li><a  href="https://www.instagram.com/zaksdodo?igshid=NTA5ZTk1NTc=">Insta</a></li>
+        <li><a  href="https://medium.com/@zakarmgm17">Medium</a></li>
+    </div>
+<hr>
 </body>
 </html>
