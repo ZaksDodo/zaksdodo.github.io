@@ -37,4 +37,8 @@ body{
         font-weight: bolder;
         margin-left: 5px;
     }
+    nav label a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
 }
