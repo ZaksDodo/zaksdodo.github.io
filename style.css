@@ -31,7 +31,7 @@ body{
         margin: 0 2px;
     }
     label.logo a{
-        font-family: cursive;
+        font-family: cursive, 'pacifico';
         font-size: small;
         font-weight: bolder;
         color: rgb(252, 232, 206);
