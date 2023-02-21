@@ -36,6 +36,7 @@ body{
         line-height: 40px;
         font-weight: bolder;
         margin-left: 5px;
+        font: Pacifico;
     }
     nav label.logo a{
         text-decoration: none;
