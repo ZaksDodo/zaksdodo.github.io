@@ -30,16 +30,12 @@ body{
         line-height: 40px;
         margin: 0 2px;
     }
-    label.logo{
-        color: rgb(252, 232, 206);
+    label.logo a{
+        font-family: cursive;
         font-size: small;
-        line-height: 40px;
         font-weight: bolder;
+        color: rgb(252, 232, 206);
+        line-height: 40px;
         margin-left: 5px;
-        font: Pacifico;
-    }
-    nav label.logo a{
-        text-decoration: none;
-        color: antiquewhite;
     }
 }
