@@ -31,8 +31,8 @@ body{
         margin: 0 2px;
     }
     label.logo a{
-        font-family: cursive, 'pacifico';
-        font-size: small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif, Cursive;
+        font-size: medium;
         font-weight: bolder;
         color: rgb(252, 232, 206);
         line-height: 40px;
