@@ -58,37 +58,4 @@ body{
         line-height: 90px;
         overflow: hidden;
     }
-   .dynamic li{
-        list-style: none;
-        font-size: 35px;
-        font-weight: 400px;
-        color: #1a0233;
-        position: relative;
-        top: 0;
-        animation: slide 6s steps(6) infinite;
-    }
-    @keyframes slide{
-        100%{
-        top: -360px;
-       }
-    }
-    .dynamic li span{
-        position: relative;
-    }
-    .dynamic li span::after{
-        content: "";
-        position: absolute;
-        background: beige;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        border-left: 3px solid #1a0233;
-        animation: typing 1.5s steps(10) infinite;
-    }
-    @keyframes typing{
-        100%{
-            left: 100%;
-            margin: 0 -35px 0 35px;
-       }
-    }
 }
