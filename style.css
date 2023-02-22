@@ -50,7 +50,7 @@ body{
         display: inline-flex;
     }
    .wrapper .static{
-        font-size: 15px;
+        font-size: 35px;
         font-weight: 400px;
     }
    .wrapper .dynamic{
@@ -60,7 +60,7 @@ body{
     }
    .dynamic li{
         list-style: none;
-        font-size: 15px;
+        font-size: 35px;
         font-weight: 400px;
         color: #1a0233;
         position: relative;
