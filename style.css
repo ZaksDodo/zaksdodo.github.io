@@ -57,7 +57,7 @@ body{
         margin-left: 5px;
     }
    .dynamic li{
-        list-type: none;
+        list-style: none;
         font-size: 40px;
         font-weight: 400px;
         color: #1a0233;
@@ -68,9 +68,17 @@ body{
     .dynamic li span::after{
         content: "";
         position: absolute;
+        background: beige;
         height: 100%;
         width: 100%;
         left: 0;
-        border: 3px solid #1a0233;
+        border-left: 3px solid #1a0233;
+        animation: typing 1.5s steps(10) infinite;
+    }
+    @keyframes typing{
+        100%{
+            left: 100%;
+            margin: 0 -35px 0 35px;
+       }
     }
 }
