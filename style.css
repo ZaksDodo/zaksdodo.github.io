@@ -40,6 +40,7 @@ body{
         line-height: 40px;
         margin-left: 5px;
     }
+}
     div{
         display: flex;
         align-items: center;
@@ -71,4 +72,3 @@ body{
         left: 0;
         border: 3px solid #1a0233;
     }
-}
