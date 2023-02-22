@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 10px;
+    margin: 0;
 }
 body{
     background-color: rgb(243, 243, 224);
@@ -9,6 +9,7 @@ body{
 @media (max-width:500px){
     body{
         background-color: beige;
+        margin: 3px;
     }
     nav{
         background: #1a0233;
