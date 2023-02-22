@@ -40,4 +40,10 @@ body{
         line-height: 40px;
         margin-left: 5px;
     }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center
+        min-height:0 50vh;
+    }
 }
