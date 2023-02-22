@@ -44,6 +44,31 @@ body{
         display: flex;
         align-items: center;
         justify-content: center
-        min-height:0 100vh;
+        min-height: 0 100vh;
+    }
+   .wrapper{
+        display: inline-flex;
+    }
+   .wrapper .static{
+        font-size: 40px;
+        font-weight: 400px;
+    }
+   .wrapper .dynamic{
+        margin-left: 5px;
+   .wrapper li{
+        list-type: none;
+        font-size: 40px;
+        font-weight: 400px;
+        color: #1a0233;
+    }
+    .dynamic li span{
+        position: relative;
+    .dynamic li span::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        border: 3px solid #1a0233;
     }
 }
