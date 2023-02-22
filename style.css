@@ -40,7 +40,6 @@ body{
         line-height: 40px;
         margin-left: 5px;
     }
-}
     div{
         display: flex;
         align-items: center;
@@ -56,7 +55,7 @@ body{
     }
    .wrapper .dynamic{
         margin-left: 5px;
-   .wrapper li{
+   .dynamic li{
         list-type: none;
         font-size: 40px;
         font-weight: 400px;
@@ -72,3 +71,4 @@ body{
         left: 0;
         border: 3px solid #1a0233;
     }
+}
