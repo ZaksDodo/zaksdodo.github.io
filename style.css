@@ -40,7 +40,7 @@ body{
         line-height: 40px;
         margin-left: 5px;
     }
-    div{
+    .slider{
         display: flex;
         align-items: center;
         justify-content: center
