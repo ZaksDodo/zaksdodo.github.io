@@ -102,16 +102,14 @@ body{
        display: inline-flex;
        margin: 10px;
        padding: 10px;
-       position: relative;
+       box-shadow: 5px 5px 8px beige;
     }
     .career h3{
        color: #1a0233;
        margin-left: 3px;
-       position: absolute;
     }
     .career p{
        color: #02091f;
        margin-left: 5px;
-       position: absolute;
     }
 }
