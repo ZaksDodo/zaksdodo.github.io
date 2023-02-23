@@ -102,7 +102,7 @@ body{
        display: inline-flex;
        margin: 10px;
        padding: 10px;
-       box-shadow: 5px 5px 8px beige;
+       box-shadow: 10px 10px 15px #1a0233;
     }
     .career h3{
        color: #1a0233;
