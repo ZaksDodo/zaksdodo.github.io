@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(243, 243, 224);
@@ -40,11 +41,10 @@ body{
         line-height: 40px;
         margin-left: 5px;
     }
-    .slider{
+    body .slider{
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 0 100vh;
     }
    .wrapper{
         display: inline-flex;
@@ -55,7 +55,8 @@ body{
     }
    .wrapper .dynamic{
         margin-left: 5px;
-        line-height: 90px;
+        height: 50px;
+        line-height: 50px;
         overflow: hidden;
     }
     .dynamic li{
@@ -69,7 +70,7 @@ body{
     }
     @keyframes slide{
         100%{
-        top: -360px;
+        top: -300px;
        }
     }
     .dynamic li span{
