@@ -93,4 +93,12 @@ body{
             margin: 10px -10px -6px 20px;
        }
     }
+    .career{
+       border: 2px solid champagne;
+       background: #ddc7a0 !important;
+       border-radius: 50px 20px;
+       justify-content: center;
+       align-items: center;
+       display: inline-flex;
+    }
 }
