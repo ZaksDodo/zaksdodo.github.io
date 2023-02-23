@@ -50,20 +50,20 @@ body{
         display: inline-flex;
     }
    .wrapper .static{
-        font-size: 30px;
-        font-weight: 200px;
-        margin: 5px;
+        font-size: 60px;
+        font-weight: 400px;
+        margin: 10px;
     }
    .wrapper .dynamic{
-        margin-left: 7.5px;
-        height: 45px;
-        line-height: 45px;
+        margin-left: 15px;
+        height: 90px;
+        line-height: 90px;
         overflow: hidden;
     }
     .dynamic li{
         list-style: none;
-        font-size: 30px;
-        font-weight: 200px;
+        font-size: 60px;
+        font-weight: 400px;
         color: #1a0233;
         position: relative;
         top: 0;
@@ -71,7 +71,7 @@ body{
     }
     @keyframes slide{
         100%{
-        top: -180px;
+        top: -360px;
        }
     }
     .dynamic li span{
@@ -81,16 +81,16 @@ body{
         content: "";
         position: absolute;
         background: beige;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         left: 0;
         border-left: 3px solid #1a0233;
         animation: typing 1.5s steps(10) infinite;
     }
     @keyframes typing{
         100%{
-            left: 50%;
-            margin: 0 -17.5px 0 17.5px;
+            left: 100%;
+            margin: 0 -15px 0 15px;
        }
     }
 }
