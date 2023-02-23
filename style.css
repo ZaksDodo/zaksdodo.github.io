@@ -50,27 +50,28 @@ body{
         display: inline-flex;
     }
    .wrapper .static{
-        font-size: 35px;
+        font-size: 60px;
         font-weight: 400px;
+        margin: 10px;
     }
    .wrapper .dynamic{
         margin-left: 5px;
-        height: 50px;
-        line-height: 50px;
+        height: 90px;
+        line-height: 90px;
         overflow: hidden;
     }
     .dynamic li{
         list-style: none;
-        font-size: 35px;
+        font-size: 60px;
         font-weight: 400px;
         color: #1a0233;
         position: relative;
         top: 0;
-        animation: slide 6s steps(6) infinite;
+        animation: slide 6s steps(4) infinite;
     }
     @keyframes slide{
         100%{
-        top: -300px;
+        top: -360px;
        }
     }
     .dynamic li span{
