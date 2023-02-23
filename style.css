@@ -100,15 +100,18 @@ body{
        justify-content: center;
        align-items: center;
        display: inline-flex;
-       margin: 5px;
-       padding: 5px;
+       margin: 10px;
+       padding: 10px;
+       position: relative;
     }
     .career h3{
-       color: wheat;
+       color: #1a0233;
        margin-left: 3px;
+       position: absolute;
     }
     .career p{
-       color: white;
-       margin-left: 3px;
+       color: #02091f;
+       margin-left: 5px;
+       position: absolute;
     }
 }
