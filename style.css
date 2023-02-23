@@ -53,6 +53,7 @@ body{
         font-size: 30px;
         font-weight: 200px;
         margin: 5px;
+        float: center;
     }
    .wrapper .dynamic{
         margin-left: 7.5px;
