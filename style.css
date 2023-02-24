@@ -53,7 +53,7 @@ body{
         display: inline-flex;
    }
    .wrapper .static{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 200px;
         margin: 5px;
     }
@@ -65,7 +65,7 @@ body{
     }
     .dynamic li{
         list-style: none;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 200;
         color: #1a0233;
         position: relative;
@@ -74,7 +74,7 @@ body{
     }
     @keyframes slide{
         100%{
-        top: -200px;
+        top: -190px;
        }
     }
     .dynamic li span{
@@ -93,7 +93,7 @@ body{
     @keyframes typing{
         100%{
             left: 100%;
-            margin: 0 -15px 0 20px;
+            margin: 0 -18px 0 18px;
        }
     }
     .career{
