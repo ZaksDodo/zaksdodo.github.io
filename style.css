@@ -48,6 +48,7 @@ body{
     }
    .wrapper{
         display: inline-flex;
+        justify-content: center !important;
     }
    .wrapper .static{
         font-size: 30px;
@@ -137,7 +138,7 @@ body{
     .attrib ul li{
        list-style: none;
        color: #000215;
-       font-size: 20px;
+       font-size: 15px;
        margin: 5px;
        letter-spacing: 1px;
        position: relative;
@@ -156,7 +157,7 @@ body{
     }
 
     .attrib ul p, dl{
-       font-size: 10px;
+       font-size: small;
        margin: 5px;
        color: #1a0233;
        align: justify;
