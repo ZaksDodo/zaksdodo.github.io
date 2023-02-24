@@ -44,7 +44,7 @@ body{
     body .slider{
         display: flex !important;
         align-items: center !important;
-        width: 20% !important;
+        width: 40% !important;
         margin-left: 10%;
         box-shadow: -3px 0 0 burlywood;
     }
