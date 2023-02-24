@@ -112,4 +112,55 @@ body{
        color: #1a0233;
        margin-left: 5px;
     }
+    .attrib{
+       justify-content: center;
+       display: flex;
+       padding: 0 2.5%;
+       margin: 0 10%;
+    }
+    .attrib h3{
+       position: relative;
+       display: inline-flex;
+       color: #1a0233;
+       font-size: 20px;
+       margin: 5px;
+    }
+    .attrib h3:after{
+       content: "";
+       position: absolute;
+       background: #1a0233;
+       height: 1px;
+       width: 100%;
+       margin-top: 20px;
+    }
+    .attrib ul li{
+       list-style: none;
+       color: #000215;
+       font-size: 20px;
+       margin: 5px;
+       letter-spacing: 1px;
+       position: relative;
+    }
+    .attrib ul li:after{
+       content: "";
+       position: absolute;
+       background: #1a0233;
+       height: 1px;
+       width: 0;
+       left: 0;
+       margin-top: 20px;
+    }
+    .attrib ul li:hover:after{
+       width: 100%;
+    }
+
+    .attrib ul p, dl{
+       font-size: 10px;
+       margin: 5px;
+       color: #1a0233;
+    }
+    .attrib ul dl a{
+       text-decoration:none;
+       color: #1a0233;
+    }
 }
