@@ -47,6 +47,7 @@ body{
         width: 40% !important;
         margin-left: 10%;
         box-shadow: -3px 0 0 burlywood;
+        border: 2px solid red;
     }
    .wrapper{
         display: inline-flex;
