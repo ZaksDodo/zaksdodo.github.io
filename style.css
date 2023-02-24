@@ -53,7 +53,7 @@ body{
         font-size: 30px;
         font-weight: 200px;
         margin: 5px;
-        margin-left: 10px;
+        min-width: 100vh;
     }
    .wrapper .dynamic{
         margin-left: 7.5px;
@@ -110,7 +110,7 @@ body{
        margin-left: 3px;
     }
     .career p{
-       color: #02091f;
+       color: #1a0233;
        margin-left: 5px;
     }
 }
