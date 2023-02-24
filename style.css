@@ -112,13 +112,12 @@ body{
     .career p{
        color: #1a0233;
        margin-left: 5px;
-       font-size: 15px;
-       align: justify;
+       font-size: 12px;
+       text-align: justify;
     }
     .attrib{
        display: flex;
        padding: 0 2.5%;
-       margin: 0 10%;
     }
     .attrib h3{
        position: relative;
@@ -138,7 +137,7 @@ body{
     .attrib ul li{
        list-style: none;
        color: #000215;
-       font-size: 15px;
+       font-size: 20px;
        margin: 5px;
        letter-spacing: 1px;
        position: relative;
