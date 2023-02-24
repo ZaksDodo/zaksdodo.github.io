@@ -44,12 +44,12 @@ body{
     body .slider{
         display: flex !important;
         align-items: center !important;
-        justify-content: center !important;
+        width: 20% !important;
+        margin-left: 5%;
     }
    .wrapper{
         display: inline-flex;
-        justify-content: center !important;
-    }
+   }
    .wrapper .static{
         font-size: 30px;
         font-weight: 200px;
