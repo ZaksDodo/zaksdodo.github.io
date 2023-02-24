@@ -48,8 +48,8 @@ body{
     }
    .wrapper{
         display: inline-flex;
-        justify-content: center !important;
-        padding-left: 10px !important;
+        margin: auto !important;
+        width: 80% !important;
     }
    .wrapper .static{
         font-size: 30px;
