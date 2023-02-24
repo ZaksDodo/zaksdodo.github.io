@@ -45,7 +45,8 @@ body{
         display: flex !important;
         align-items: center !important;
         width: 20% !important;
-        margin-left: 5%;
+        margin-left: 10%;
+        box-shadow: -3px -3px 10px burlywood;
     }
    .wrapper{
         display: inline-flex;
