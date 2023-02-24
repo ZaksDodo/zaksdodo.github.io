@@ -111,9 +111,9 @@ body{
     .career p{
        color: #1a0233;
        margin-left: 5px;
+       align: justify;
     }
     .attrib{
-       justify-content: center;
        display: flex;
        padding: 0 2.5%;
        margin: 0 10%;
