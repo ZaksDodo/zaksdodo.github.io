@@ -52,8 +52,7 @@ body{
    .wrapper .static{
         font-size: 30px;
         font-weight: 200px;
-        margin: 5px;
-        min-width: 100vh;
+        margin: 5px 5px 5px 10px;
     }
    .wrapper .dynamic{
         margin-left: 7.5px;
