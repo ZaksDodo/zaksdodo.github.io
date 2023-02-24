@@ -92,7 +92,7 @@ body{
     @keyframes typing{
         100%{
             left: 100%;
-            margin: 10px -10px -6px 20px;
+            margin: 0 -15px 0 20px;
        }
     }
     .career{
