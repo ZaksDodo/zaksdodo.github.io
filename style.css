@@ -44,7 +44,7 @@ body{
     body .slider{
         display: flex !important;
         align-items: center !important;
-        width: 70% !important;
+        width: 90% !important;
         margin-left: 10%;
         box-shadow: -3px 0 0 burlywood;
         border: 2px solid red;
@@ -74,7 +74,7 @@ body{
     }
     @keyframes slide{
         100%{
-        top: -190px;
+        top: -165px;
        }
     }
     .dynamic li span{
