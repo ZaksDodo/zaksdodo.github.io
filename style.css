@@ -126,6 +126,7 @@ body{
        color: #1a0233;
        font-size: 20px;
        margin: 5px;
+       border: 2px solid red;
     }/*
     .attrib h3:after{
        content: "";
@@ -175,14 +176,16 @@ body{
     #vid video {
        width: 70%;
        height: 30%;
-       margin-left: 15%;
+       margin-left: 25%;
        box-shadow: 2px 5px 5px #1a0233;
        border-radius: 2px 5px;
+       border: 2px solid red;
     }
     .forums div{
-       width: 60%;
+       width: 100%;
        height: 30%;
        margin: 10px 20%;
+       border: 2px solid red;
     }
     .forums div h3{
        text-align: center;
