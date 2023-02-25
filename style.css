@@ -168,7 +168,7 @@ body{
        color: #1a0233;
     }
     .forums #attr {
-       margin-left: 13px;
+       margin-left: 13.5px;
     }
     .forums div{
        width: 100%;
@@ -179,6 +179,7 @@ body{
     #vid video {
        width: 80%;
        height: 40%;
+       margin: auto;
        box-shadow: 2px 5px 5px #1a0233;
        border-radius: 2px 5px;
     }
@@ -191,6 +192,6 @@ body{
     }
     .forums div p{
        text-align: center;
-       margin: 10px 5%;
+       margin: 10px 8%;
     }
 }
