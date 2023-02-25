@@ -168,21 +168,21 @@ body{
     }
 
     .forums #attr {
-       Padding: 5%;
+       Padding: 0 5%;
        margin: 0 20%;
     }
 
     #vid video {
        width: 70%;
        height: 30%;
-       margin-left: 7%;
-       box-shadow: 5px 10px 10px;
+       margin-left: 15%;
+       box-shadow: 2px 5px 5px #1a0233;
        border-radius: 2px 5px;
     }
     .forums div{
        width: 60%;
        height: 30%;
-       margin: 5px 15%;
+       margin: 10px 20%;
     }
     .forums div h3{
        text-align: center;
@@ -192,6 +192,6 @@ body{
     }
     .forums div p{
        text-align: center;
-       margin: 5px 10%;
+       margin: 10px 15%;
     }
 }
