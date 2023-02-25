@@ -46,8 +46,7 @@ body{
         align-items: center !important;
         width: 90% !important;
         margin-left: 10%;
-        box-shadow: -3px 0 0 burlywood;
-        border: 2px solid red;
+        box-shadow: -3px -3px 0 burlywood;
     }
    .wrapper{
         display: inline-flex;
@@ -74,7 +73,7 @@ body{
     }
     @keyframes slide{
         100%{
-        top: -178.5px;
+        top: -179px;
        }
     }
     .dynamic li span{
