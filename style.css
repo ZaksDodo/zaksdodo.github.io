@@ -168,7 +168,7 @@ body{
        color: #1a0233;
     }
     .forums #attr {
-       margin-left: 12px;
+       margin-left: 12.5px;
     }
 
     #vid video {
@@ -181,8 +181,7 @@ body{
     .forums div{
        width: 80%;
        height: 30%;
-       margin: 15px;
-       padding-right: 15px;
+       padding-right: 2px;
        border: 2px solid red;
     }
     .forums div h3{
