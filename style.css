@@ -120,13 +120,13 @@ body{
        display: flex;
        padding: 0 2.5%;
     }
-    .attrib h3{
+    #attr{
        position: relative;
        display: inline-flex;
        color: #1a0233;
        font-size: 20px;
        margin: 5px;
-    }
+    }/*
     .attrib h3:after{
        content: "";
        position: absolute;
@@ -134,7 +134,7 @@ body{
        height: 1px;
        width: 100%;
        margin-top: 20px;
-    }
+    }*/
     .attrib ul li{
        list-style: none;
        color: #000215;
@@ -167,20 +167,31 @@ body{
        color: #1a0233;
     }
 
-    #myVideo {
-       position: fixed;
-       right: 0;
-       bottom: 0;
-       min-width: 20%;
-       min-height: 20%;
+    .forums #attr {
+       Padding: 2.5%;
+       margin: 0 10%;
     }
 
-    .content {
-       position: fixed;
-       bottom: 0;
-       background: rgba(0, 0, 0, 0.5);
-       color: #f1f1f1;
-       width: 100%;
-       padding: 20px;
+    #vid video {
+       width: 40%;
+       height: 15%;
+       margin-left: 7%;
+       box-shadow: 2px 5px 5px;
+       border-radius: 1px 3px;
+    }
+    .forums div{
+       width: 30%;
+       height: 15%;
+       margin: 5px 15%;
+    }
+    .forums div h3{
+       text-align: center;
+       font-size: 20px;
+       color: rgb(2, 85, 2);
+       letter-spacing: 1.5px;
+    }
+    .forums div p{
+       text-align: center;
+       margin: 5px 10%;
     }
 }
