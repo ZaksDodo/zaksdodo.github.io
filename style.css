@@ -168,20 +168,20 @@ body{
     }
 
     .forums #attr {
-       Padding: 2.5%;
-       margin: 0 10%;
+       Padding: 5%;
+       margin: 0 20%;
     }
 
     #vid video {
-       width: 40%;
-       height: 15%;
+       width: 70%;
+       height: 30%;
        margin-left: 7%;
-       box-shadow: 2px 5px 5px;
-       border-radius: 1px 3px;
+       box-shadow: 5px 10px 10px;
+       border-radius: 2px 5px;
     }
     .forums div{
-       width: 30%;
-       height: 15%;
+       width: 60%;
+       height: 30%;
        margin: 5px 15%;
     }
     .forums div h3{
