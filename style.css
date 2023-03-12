@@ -9,7 +9,7 @@ body{
 }
 @media (max-width:500px){
     body{
-        background-color: beige;
+        background-color: #fbfcf8;
         margin: 3px;
     }
     nav{
@@ -82,7 +82,7 @@ body{
     .dynamic li span::after{
         content: "";
         position: absolute;
-        background: beige;
+        background: #fbfcf8;
         height: 100%;
         width: 100%;
         left: 0;
@@ -97,7 +97,7 @@ body{
     }
     .career{
        border: 2px solid champagne;
-       background: beige !important;
+       background: #fbfcf8 !important;
        border-radius: 50px 20px;
        justify-content: center;
        align-items: center;
@@ -147,7 +147,7 @@ body{
     .attrib ul li:after{
        content: "";
        position: absolute;
-       background: #1a0233;
+       background: #fbfcf8;
        height: 1px;
        width: 0;
        left: 0;
