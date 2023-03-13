@@ -19,7 +19,7 @@ body{
     }
     nav ul li a{
         text-decoration: none;
-        color: antiquewhite;
+        color: #fbfcf8;
         font-size: xx-small;
         font-weight: bold;
     }
@@ -46,7 +46,7 @@ body{
         align-items: center !important;
         width: 90% !important;
         margin: 10px 17px;
-        box-shadow: -3px -3px 5px burlywood;
+        box-shadow: -3px -3px 5px #fbfcf8;
     }
    .wrapper{
         display: inline-flex;
