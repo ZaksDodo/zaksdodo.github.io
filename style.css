@@ -170,7 +170,7 @@ body{
     #vid video, img{
        width: 60%;
        height: 30%;
-       margin-left: 10%;
+       justify-content: center;
     }
     .forums div h3{
        text-align: center;
@@ -179,6 +179,7 @@ body{
        letter-spacing: 1.5px;
     }
     .forums div p{
+       font-size: 12px;
        text-align: center;
        margin: 10px 12%;
     }
