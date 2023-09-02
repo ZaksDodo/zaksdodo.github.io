@@ -194,8 +194,7 @@ body{
         font-size: 15px;
     }
     span a{
-        width: 2px;
-        display: flex;
+        text-align: center;
         margin: auto;
         color: #ffffff;
     }
