@@ -190,11 +190,15 @@ body{
     }
     p{
         text-align: center;
+        color: white;
     }
     span a{
+        display: flex;
         margin: auto;
+        color: white;
     }
     p #cnote{
         text-align: center;
+        color: white;
     }
 }
