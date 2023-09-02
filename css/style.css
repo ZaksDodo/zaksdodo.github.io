@@ -191,13 +191,19 @@ body{
     p{
         text-align: center;
         color: #ffffff;
+        font-size: 15px;
+    }
+    span{
+        padding: 10px;
     }
     span a{
+        padding: 2px;
         margin: auto;
         color: #ffffff;
     }
     p #cnote{
         text-align: center;
         color: #ffffff;
+        font-size: 12px;
     }
 }
