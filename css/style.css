@@ -193,11 +193,9 @@ body{
         color: #ffffff;
         font-size: 15px;
     }
-    span{
-        padding: 10px;
-    }
-    .logos a{
+    span a{
         width: 2px;
+        display: flex;
         margin: auto;
         color: #ffffff;
     }
