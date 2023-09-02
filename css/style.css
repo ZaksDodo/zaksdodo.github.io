@@ -183,4 +183,18 @@ body{
        text-align: center;
        margin: 10px 12%;
     }
+
+    .footnote{
+        background-color: #000b33;
+        padding: 10px;
+    }
+    p{
+        text-align: center;
+    }
+    span a{
+        margin: auto;
+    }
+    p #cnote{
+        text-align: center;
+    }
 }
