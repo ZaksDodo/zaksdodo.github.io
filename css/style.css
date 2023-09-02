@@ -188,7 +188,7 @@ body{
         background-color: #000b33;
         padding: 10px;
     }
-    p{
+    .footnote p{
         text-align: center;
         color: #ffffff;
         font-size: 15px;
@@ -196,8 +196,8 @@ body{
     span{
         padding: 10px;
     }
-    span a{
-        padding: 2px;
+    .logos a{
+        width: 2px;
         margin: auto;
         color: #ffffff;
     }
