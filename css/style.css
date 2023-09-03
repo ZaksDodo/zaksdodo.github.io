@@ -204,10 +204,11 @@ body{
         color: #ffffff;
     }
     #cnote{
-        margin: auto;
+        margin: -2px;
         color: #ffffff;
         font-family: Arial;
         font-size: xx-small;
+        text-align: center;
     }
     #hrlast{
         width: 100%;
