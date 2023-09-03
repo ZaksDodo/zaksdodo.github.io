@@ -184,11 +184,11 @@ body{
        margin: 10px 12%;
     }
 
-    .footnote{
+    footer{
         background-color: #000b33;
         padding: 10px;
     }
-    .footnote p{
+    footer p{
         text-align: center;
         color: #ffffff;
         font-family: Calibri;
