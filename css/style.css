@@ -191,19 +191,35 @@ body{
     .footnote p{
         text-align: center;
         color: #ffffff;
+        font-family: Calibri;
         font-size: 15px;
+        width: 50%;
     }
     span{
         display: flex;
         text-align: center;
     }
     span a{
-        padding: 3px;
         margin: auto;
         color: #ffffff;
     }
     p #cnote{
         color: #ffffff;
         font-size: 12px;
+        font-family: Arial;
+        font-size: x-small;
+    }
+    #hrlast{
+        width: 40%;
+    }
+    footer h3, .whatsapp{
+        padding-top: 20px;
+        color: rgb(50, 243, 11);
+        margin: auto;
+        text-align: center;
+        font-family: 'Lucida Sans';
+    }
+    .whatsapp{
+        font-weight: bolder;
     }
 }
