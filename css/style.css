@@ -195,9 +195,10 @@ body{
     }
     span{
         border: 1px solid #259e49;
+        padding: 0 30px;
     }
     span a{
-        text-align: center;
+        padding: 3px;
         margin: auto;
         color: #ffffff;
     }
