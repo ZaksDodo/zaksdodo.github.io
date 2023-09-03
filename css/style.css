@@ -194,6 +194,7 @@ body{
         font-family: Calibri;
         font-size: 15px;
         width: 50%;
+        margin: auto;
     }
     span{
         display: flex;
@@ -209,7 +210,7 @@ body{
         font-size: xx-small;
     }
     #hrlast{
-        width: 80%;
+        width: 100%;
     }
     footer h3, .whatsapp{
         padding-top: 20px;
