@@ -197,13 +197,13 @@ body{
     }
     span{
         display: flex;
-        text-align: center;
     }
     span a{
         margin: auto;
         color: #ffffff;
     }
-    p #cnote{
+    #cnote{
+        margin: -2px;
         color: #ffffff;
         font-family: Arial;
         font-size: xx-small;
