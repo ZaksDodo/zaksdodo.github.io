@@ -193,9 +193,9 @@ body{
         color: #ffffff;
         font-size: 15px;
     }
-    span.logos{
-        border: 1px solid #259e49;
-        padding: 0 50px;
+    span{
+        display: flex;
+        text-align: center;
     }
     span a{
         padding: 3px;
@@ -203,7 +203,6 @@ body{
         color: #ffffff;
     }
     p #cnote{
-        text-align: center;
         color: #ffffff;
         font-size: 12px;
     }
