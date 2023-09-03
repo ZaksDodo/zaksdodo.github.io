@@ -205,12 +205,11 @@ body{
     }
     p #cnote{
         color: #ffffff;
-        font-size: 12px;
         font-family: Arial;
-        font-size: x-small;
+        font-size: xx-small;
     }
     #hrlast{
-        width: 40%;
+        width: 80%;
     }
     footer h3, .whatsapp{
         padding-top: 20px;
