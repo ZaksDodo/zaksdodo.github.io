@@ -195,7 +195,7 @@ body{
     }
     span{
         border: 1px solid #259e49;
-        padding: 0 30px;
+        padding: 0 100%;
     }
     span a{
         padding: 3px;
