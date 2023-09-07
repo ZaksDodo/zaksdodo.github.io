@@ -91,16 +91,16 @@
             margin: 0 -20px 0 20px;
        }
     }
-   .top{
+   .career{
       padding: 2%;
       background-color: rgb(8, 2, 32);
       text-align: center;
    }
-   .top h2{
+   .career h2{
       color: #ff0000;
       font-family: courier;
    }
-   .top h4{
+   .career h4{
       width: 60%;
       margin: auto;
       font-family: 'Trebuchet MS';
