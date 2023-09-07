@@ -156,7 +156,7 @@
     }
 
     #member{
-        margin: 10px 30%;
+        margin: 10px 20%;
         font-family: cursive;
         font-weight: lighter;
     }
@@ -168,8 +168,8 @@
         margin: auto;
     }
     .member a, img{
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         margin: auto;
     }
     .downloadcv{
@@ -185,7 +185,7 @@
         color: #000000;
         padding: 10px 20px;
         font-family: cursive;
-        font-decoration: none;
+        text-decoration: none;
     }
     .downloadcv a:hover{
         color: rgb(50, 243, 11);
