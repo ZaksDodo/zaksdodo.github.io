@@ -91,28 +91,23 @@
             margin: 0 -20px 0 20px;
        }
     }
-    .career{
-       border: 2px solid champagne;
-       background: #fbfcf8 !important;
-       border-radius: 50px 20px;
-       justify-content: center;
-       align-items: center;
-       display: inline-flex;
-       margin: 10px;
-       padding: 10px;
-       box-shadow: 10px 10px 15px #1a0233;
+    .top{
+       padding: 10%;
+       background-color: rgb(8, 2, 32);
+       text-align: center;
     }
-    .career h3{
-       color: #1a0233;
-       margin-left: 3px;
-    }
-    .career p{
-       color: #1a0233;
-       margin-left: 5px;
-       font-size: 12px;
-       text-align: justify;
-    }
-
+   .top h2{
+      color: #ff0000;
+      font-family: courier;
+   }
+   .top h4{
+      width: 60%;
+      margin: auto;
+      font-family: 'Trebuchet MS';
+      font-weight: lighter;
+      text-shadow: 1px 1px 3px #ffffff;
+      color: #ffffff;
+   }
     #member{
        margin: 10px 10%;
        font-family: cursive;
