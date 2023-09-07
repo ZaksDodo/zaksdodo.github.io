@@ -9,7 +9,7 @@
         margin: 3px;
     }
     nav{
-        background: #000b33;
+        background: rgb(8, 2, 32);
         height: 40px;
         width: 100%;
     }
@@ -105,12 +105,12 @@
       margin: auto;
       font-family: 'Trebuchet MS';
       font-weight: lighter;
-      text-shadow: 1px 1px 3px #ffffff;
+      text-shadow: 1px 1px 5px #cccccc;
       color: #ffffff;
    }
    #member{
       margin: 10px 10%;
-      font-family: cursive;
+      font-family: 'Trebuchet MS';
       font-weight: lighter;
       padding: 10px;
    }
@@ -127,7 +127,7 @@
        margin: auto;
     }
     .downloadcv{
-        margin: 2% 0;
+        margin: 4% 0;
         padding: 15px;
         display: flex;
     }
@@ -138,14 +138,14 @@
         background-color: #F5F5F5;
         color: #000000;
         padding: 10px 20px;
-        font-family: cursive;
+        font-family: 'Trebuchet MS';
         text-decoration: none;
     }
     .downloadcv a:hover{
         color: rgb(50, 243, 11);
     }
     footer{
-        background-color: #000b33;
+        background-color: rgb(8, 2, 32);
         padding: 10px;
     }
     footer p{
