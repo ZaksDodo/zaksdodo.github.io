@@ -91,11 +91,11 @@
             margin: 0 -20px 0 20px;
        }
     }
-    .top{
-       padding: 10%;
-       background-color: rgb(8, 2, 32);
-       text-align: center;
-    }
+   .top{
+      padding: 2%;
+      background-color: rgb(8, 2, 32);
+      text-align: center;
+   }
    .top h2{
       color: #ff0000;
       font-family: courier;
@@ -108,19 +108,19 @@
       text-shadow: 1px 1px 3px #ffffff;
       color: #ffffff;
    }
-    #member{
-       margin: 10px 10%;
-       font-family: cursive;
-       font-weight: lighter;
-       padding: 10px;
-    }
-    .member{
-       display: flex;
-       align-items: center;
-       text-align: center;
-       width: 90%;
-       margin: auto;
-    }
+   #member{
+      margin: 10px 10%;
+      font-family: cursive;
+      font-weight: lighter;
+      padding: 10px;
+   }
+   .member{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 90%;
+      margin: auto;
+   }
     .member a, img{
        width: 30px;
        height: 30px;
