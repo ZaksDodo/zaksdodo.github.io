@@ -156,9 +156,10 @@
     }
 
     #member{
-        margin: 10px 10%;
-        font-family: cursive;
-        font-weight: lighter;
+       margin: 10px 10%;
+       font-family: cursive;
+       font-weight: lighter;
+       padding: 10px;
     }
     .member{
        display: flex;
@@ -174,7 +175,7 @@
     }
     .downloadcv{
         margin: 2% 0;
-        padding: 5px;
+        padding: 15px;
         display: flex;
     }
     .downloadcv a{
