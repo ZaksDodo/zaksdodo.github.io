@@ -156,21 +156,22 @@
     }
 
     #member{
-        margin: 10px 20%;
+        margin: 10px 10%;
         font-family: cursive;
         font-weight: lighter;
     }
     .member{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        width: 40%;
-        margin: auto;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       width: 40%;
+       margin: auto;
+       border: 2px solid #000000;
     }
     .member a, img{
-        width: 30px;
-        height: 30px;
-        margin: auto;
+       width: 30px;
+       height: 30px;
+       margin: auto;
     }
     .downloadcv{
         margin: 2% 0;
