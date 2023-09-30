@@ -6,7 +6,7 @@
     }
     body{
         background-color: #fbfcf8;
-        margin: 3px;
+        font-family: Arial, "sans-serif";
     }
     nav{
         background: rgb(8, 2, 32);
@@ -109,27 +109,41 @@
       text-shadow: 1px 1px 5px #cccccc;
       color: #ffffff;
    }
+   .bio{
+    box-shadow: 2px #1a0233;
+    width: 70%;
+    margin: auto;
+   }
+   .bio p{
+    padding: 10px;
+   }
+   .bio ul{
+    margin-left: 50px;
+   }
    #member{
-      margin: 10px 10%;
-      font-family: 'Trebuchet MS';
+      font-family: 'Trebuchet MS', Arial;
       font-weight: lighter;
-      padding: 10px;
+      margin: 50px 50px 0;
+      padding-left: 10px;
    }
    .member{
-      display: flex;
-      align-items: center;
-      text-align: center;
-      width: 90%;
-      margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+    padding: 0 150px;
    }
-    .member a, img{
-       width: 30px;
-       height: 30px;
-       margin: auto;
-    }
+   .member > div{
+    margin: auto;
+    padding: 2px 5px;
+   }
+   .member img{
+    width: 70px;
+    box-shadow: 2px 4px rgb(8, 2, 32);
+    border: 2px solid whitesmoke;
+   }
+
     .downloadcv{
-        margin: 4% 0;
-        padding: 15px;
+        padding: 15px 0;
         display: flex;
     }
     .downloadcv a{
