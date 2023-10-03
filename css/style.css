@@ -111,7 +111,7 @@
    }
    .bio{
     box-shadow: 2px #1a0233;
-    width: 70%;
+    width: 90%;
     margin: auto;
    }
    .bio p{
@@ -122,25 +122,28 @@
    }
    .membersection{
     margin-bottom: 20px;
+    border: 1px solid red;
    }
    #member{
       font-family: 'Trebuchet MS', Arial;
       font-weight: lighter;
       margin: 50px 50px 0;
       padding-left: 10px;
+    border: 1px solid black;
    }
    .member{
     display: flex;
     flex-wrap: wrap;
     margin: 0 5px;
     padding: 0 150px;
+    border: 1px solid blue;
    }
    .member > div{
     margin: auto;
     padding: 2px 5px;
    }
    .member img{
-    width: 70px;
+    width: 50px;
     box-shadow: 2px 4px rgb(8, 2, 32);
     border: 2px solid whitesmoke;
    }
